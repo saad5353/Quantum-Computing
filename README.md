@@ -1,6 +1,6 @@
 # Quantum Computing Fundamentals with Qiskit
 
-This notebook demonstrates the fundamental quantum gates and quantum states used in quantum computing.
+1st notebook demonstrates the fundamental quantum gates and quantum states used in quantum computing.
 
 Topics Covered:
 
@@ -16,13 +16,33 @@ Topics Covered:
 - Bell State
 - GHZ State
 
-Each section includes:
 
-- Theory
-- Mathematical representation
-- Quantum circuit
-- Python implementation
-- Statevector visualization
-- Human-readable explanation
+2nd notebook demonstrates two of the most famous quantum communication protocols:
+
+## Topics Covered
+
+### Quantum Teleportation
+
+Transfer an unknown quantum state from Alice to Bob without physically sending the qubit.
+
+Concepts:
+
+* Entanglement
+* Bell States
+* Measurement
+* Classical Communication
+* Conditional Operations
+
+### Superdense Coding
+
+Send two classical bits of information by transmitting only one qubit.
+
+Concepts:
+
+* Entanglement
+* Quantum Encoding
+* Bell Basis Measurement
+* Information Compression
+
 
 Author: Muhammad Saad
