@@ -45,4 +45,66 @@ Concepts:
 * Information Compression
 
 
+3rd notebook demonstrates two historic quantum algorithms:
+
+## Algorithms Covered
+
+### Deutsch Algorithm
+
+Problem:
+
+Determine whether a function:
+
+f(x)
+
+is:
+
+* Constant
+* Balanced
+
+using only ONE oracle call.
+
+Classically:
+
+Up to 2 evaluations required.
+
+Quantum:
+
+Only 1 oracle evaluation.
+
+---
+
+### Deutsch-Jozsa Algorithm
+
+Generalization of Deutsch Algorithm.
+
+Determine whether a function:
+
+f(x)
+
+is:
+
+* Constant
+* Balanced
+
+for n-bit inputs.
+
+Classically:
+
+Requires up to 2^(n-1)+1 evaluations.
+
+Quantum:
+
+Requires only ONE oracle evaluation.
+
+---
+
+
+## Requirements
+
+pip install qiskit qiskit-aer matplotlib pylatexenc
+
+---
+
+
 Author: Muhammad Saad
